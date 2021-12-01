@@ -15,7 +15,7 @@
 #
 include("${CMAKE_CURRENT_LIST_DIR}/gnu_base.cmake")
 
-set(CMAKE_CXX_COMPILER "g++")
+set(CMAKE_CXX_COMPILER "g++-10")
 set(PROJECT_TEMPLATE_CXX_COMPILER_MINIMUM_VERSION 10)
 
 set(CMAKE_AR "ar")

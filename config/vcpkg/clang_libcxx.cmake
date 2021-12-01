@@ -21,11 +21,11 @@ set(VCPKG_CMAKE_SYSTEM_NAME Linux)
 
 set(CMAKE_INTERPROCEDURAL_OPTIMIZATION_RELEASE ON)
 
-set(CMAKE_C_COMPILER "clang++")
-set(CMAKE_CXX_COMPILER "clang++")
-set(CMAKE_AR "llvm-ar")
-set(CMAKE_RC_COMPILER "llvm-rc")
-set(CMAKE_RANLIB "llvm-ranlib")
+set(CMAKE_C_COMPILER "/home/cjdb/.local/bin/clang")
+set(CMAKE_CXX_COMPILER "/home/cjdb/.local/bin/clang++")
+set(CMAKE_AR "/home/cjdb/.local/bin/llvm-ar")
+set(CMAKE_RC_COMPILER "/home/cjdb/.local/bin/llvm-rc")
+set(CMAKE_RANLIB "/home/cjdb/.local/bin/llvm-ranlib")
 
 string(
    JOIN " " CMAKE_CXX_FLAGS
